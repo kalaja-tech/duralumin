@@ -1,0 +1,8 @@
+# OS
+.DS_Store
+
+# Local tooling
+.claude/
+
+# Client quotes (preventiv PDFs)
+*.pdf

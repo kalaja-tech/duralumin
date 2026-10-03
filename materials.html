@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Materials — Duralumin</title>
+  <meta name="description" content="Compare aluminium, uPVC, timber, composite, steel and bronze windows and doors, and explore colours and hardware finishes." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-page="materials">
+  <div id="site-header"></div>
+  <script src="layout.js"></script>
+
+  <main id="top">
+    <section class="page-hero page-hero--center">
+      <nav class="crumbs reveal-up"><a href="index.html">Home</a><span>Materials</span></nav>
+      <h1>
+        <span class="line"><span class="split">Six materials.</span></span>
+        <span class="line"><span class="split"><em>Endless finishes.</em></span></span>
+      </h1>
+      <p class="lead reveal-up">Each material has its own character. Explore how they compare, then pick from over 200 colours and a full range of hardware.</p>
+    </section>
+
+    <section class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Aluminium</span><em>·</em><span>uPVC</span><em>·</em><span>Oak</span><em>·</em><span>Composite</span><em>·</em><span>Steel</span><em>·</em><span>Bronze</span><em>·</em>
+        <span>Aluminium</span><em>·</em><span>uPVC</span><em>·</em><span>Oak</span><em>·</em><span>Composite</span><em>·</em><span>Steel</span><em>·</em><span>Bronze</span><em>·</em>
+      </div>
+    </section>
+
+    <section class="section materials" id="lab">
+      <div class="section__head">
+        <p class="eyebrow reveal-up">Explore</p>
+        <h2 class="reveal-up">Take a <em>closer look.</em></h2>
+      </div>
+      <div class="lab reveal-up">
+        <div class="lab__tabs" role="tablist" id="labTabs"></div>
+        <div class="lab__body">
+          <div class="lab__visual">
+            <div class="swatch"><div class="swatch__profile"><div class="swatch__outer"></div><div class="swatch__inner"></div><div class="swatch__glass"></div></div></div>
+            <div class="lab__uval"><span>U-value</span><strong id="uValue">0.00</strong><span>W/m²K</span></div>
+          </div>
+          <div class="lab__info">
+            <span class="lab__index" id="labIndex">01 / 06</span>
+            <h3 id="labName">Aluminium</h3>
+            <p id="labDesc"></p>
+            <div class="bars" id="labBars"></div>
+            <div class="chips" id="labChips"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="section__head">
+        <p class="eyebrow reveal-up">Side by side</p>
+        <h2 class="reveal-up">How they <em>compare.</em></h2>
+      </div>
+      <div class="compare-wrap reveal-up" id="compare">
+        <table class="compare">
+          <thead><tr><th></th><th>Aluminium</th><th>uPVC</th><th>Timber</th><th>Composite</th><th>Steel</th><th>Bronze</th></tr></thead>
+          <tbody>
+            <tr><th>Insulation</th><td data-r="4"></td><td data-r="5"></td><td data-r="5"></td><td data-r="4"></td><td data-r="3"></td><td data-r="4"></td></tr>
+            <tr><th>Slim frames</th><td data-r="5"></td><td data-r="2"></td><td data-r="3"></td><td data-r="2"></td><td data-r="5"></td><td data-r="5"></td></tr>
+            <tr><th>Strength</th><td data-r="5"></td><td data-r="3"></td><td data-r="4"></td><td data-r="4"></td><td data-r="5"></td><td data-r="5"></td></tr>
+            <tr><th>Low maintenance</th><td data-r="5"></td><td data-r="5"></td><td data-r="3"></td><td data-r="5"></td><td data-r="4"></td><td data-r="4"></td></tr>
+            <tr><th>Sustainability</th><td data-r="5"></td><td data-r="3"></td><td data-r="5"></td><td data-r="3"></td><td data-r="4"></td><td data-r="4"></td></tr>
+            <tr><th>Lifespan</th><td>40+ yrs</td><td>25–35 yrs</td><td>60+ yrs</td><td>35+ yrs</td><td>60+ yrs</td><td>80+ yrs</td></tr>
+            <tr><th>Price guide</th><td>££££</td><td>££</td><td>£££</td><td>£££</td><td>£££££</td><td>£££££</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="section__head split-head">
+        <div>
+          <p class="eyebrow reveal-up">Colours</p>
+          <h2 class="reveal-up">Our most-loved <em>colours.</em></h2>
+        </div>
+        <p class="lead reveal-up">Any RAL colour is available — these are the ones our customers choose most. Dual colour (different inside and out) at no extra cost.</p>
+      </div>
+      <div class="palette" id="palette"></div>
+      <div class="hardware reveal-up">
+        <span class="hw"><i style="--c:linear-gradient(90deg,#8a8f94,#f1f3f5,#8a8f94)"></i>Satin steel</span>
+        <span class="hw"><i style="--c:linear-gradient(90deg,#111,#4a4a4a,#111)"></i>Matt black</span>
+        <span class="hw"><i style="--c:linear-gradient(90deg,#8a6a3a,#f1d9a8,#8a6a3a)"></i>Brushed brass</span>
+        <span class="hw"><i style="--c:linear-gradient(90deg,#6b4a2c,#c99a68,#6b4a2c)"></i>Antique bronze</span>
+        <span class="hw"><i style="--c:linear-gradient(90deg,#a7a9ab,#ffffff,#a7a9ab)"></i>Polished chrome</span>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="layout.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
